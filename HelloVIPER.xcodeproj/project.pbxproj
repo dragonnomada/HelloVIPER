@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EBEFD01A2A211908000CA445 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEFD0192A211908000CA445 /* AppDelegate.swift */; };
+		EBEFD01C2A211908000CA445 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEFD01B2A211908000CA445 /* SceneDelegate.swift */; };
+		EBEFD01E2A211908000CA445 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEFD01D2A211908000CA445 /* ViewController.swift */; };
+		EBEFD0212A211908000CA445 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBEFD01F2A211908000CA445 /* Main.storyboard */; };
+		EBEFD0232A211909000CA445 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBEFD0222A211909000CA445 /* Assets.xcassets */; };
+		EBEFD0262A211909000CA445 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBEFD0242A211909000CA445 /* LaunchScreen.storyboard */; };
+		EBEFD0312A21190A000CA445 /* HelloVIPERTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEFD0302A21190A000CA445 /* HelloVIPERTests.swift */; };
+		EBEFD03B2A21190A000CA445 /* HelloVIPERUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEFD03A2A21190A000CA445 /* HelloVIPERUITests.swift */; };
+		EBEFD03D2A21190A000CA445 /* HelloVIPERUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEFD03C2A21190A000CA445 /* HelloVIPERUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EBEFD02D2A21190A000CA445 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBEFD00E2A211908000CA445 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBEFD0152A211908000CA445;
+			remoteInfo = HelloVIPER;
+		};
+		EBEFD0372A21190A000CA445 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBEFD00E2A211908000CA445 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBEFD0152A211908000CA445;
+			remoteInfo = HelloVIPER;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EBEFD0162A211908000CA445 /* HelloVIPER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloVIPER.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBEFD0192A211908000CA445 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EBEFD01B2A211908000CA445 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EBEFD01D2A211908000CA445 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EBEFD0202A211908000CA445 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EBEFD0222A211909000CA445 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EBEFD0252A211909000CA445 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EBEFD0272A211909000CA445 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBEFD02C2A21190A000CA445 /* HelloVIPERTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloVIPERTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBEFD0302A21190A000CA445 /* HelloVIPERTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloVIPERTests.swift; sourceTree = "<group>"; };
+		EBEFD0362A21190A000CA445 /* HelloVIPERUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloVIPERUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBEFD03A2A21190A000CA445 /* HelloVIPERUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloVIPERUITests.swift; sourceTree = "<group>"; };
+		EBEFD03C2A21190A000CA445 /* HelloVIPERUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloVIPERUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBEFD0132A211908000CA445 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBEFD0292A21190A000CA445 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBEFD0332A21190A000CA445 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EBEFD00D2A211908000CA445 = {
+			isa = PBXGroup;
+			children = (
+				EBEFD0182A211908000CA445 /* HelloVIPER */,
+				EBEFD02F2A21190A000CA445 /* HelloVIPERTests */,
+				EBEFD0392A21190A000CA445 /* HelloVIPERUITests */,
+				EBEFD0172A211908000CA445 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EBEFD0172A211908000CA445 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBEFD0162A211908000CA445 /* HelloVIPER.app */,
+				EBEFD02C2A21190A000CA445 /* HelloVIPERTests.xctest */,
+				EBEFD0362A21190A000CA445 /* HelloVIPERUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBEFD0182A211908000CA445 /* HelloVIPER */ = {
+			isa = PBXGroup;
+			children = (
+				EBEFD0192A211908000CA445 /* AppDelegate.swift */,
+				EBEFD01B2A211908000CA445 /* SceneDelegate.swift */,
+				EBEFD01D2A211908000CA445 /* ViewController.swift */,
+				EBEFD01F2A211908000CA445 /* Main.storyboard */,
+				EBEFD0222A211909000CA445 /* Assets.xcassets */,
+				EBEFD0242A211909000CA445 /* LaunchScreen.storyboard */,
+				EBEFD0272A211909000CA445 /* Info.plist */,
+			);
+			path = HelloVIPER;
+			sourceTree = "<group>";
+		};
+		EBEFD02F2A21190A000CA445 /* HelloVIPERTests */ = {
+			isa = PBXGroup;
+			children = (
+				EBEFD0302A21190A000CA445 /* HelloVIPERTests.swift */,
+			);
+			path = HelloVIPERTests;
+			sourceTree = "<group>";
+		};
+		EBEFD0392A21190A000CA445 /* HelloVIPERUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EBEFD03A2A21190A000CA445 /* HelloVIPERUITests.swift */,
+				EBEFD03C2A21190A000CA445 /* HelloVIPERUITestsLaunchTests.swift */,
+			);
+			path = HelloVIPERUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBEFD0152A211908000CA445 /* HelloVIPER */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBEFD0402A21190A000CA445 /* Build configuration list for PBXNativeTarget "HelloVIPER" */;
+			buildPhases = (
+				EBEFD0122A211908000CA445 /* Sources */,
+				EBEFD0132A211908000CA445 /* Frameworks */,
+				EBEFD0142A211908000CA445 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloVIPER;
+			productName = HelloVIPER;
+			productReference = EBEFD0162A211908000CA445 /* HelloVIPER.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EBEFD02B2A21190A000CA445 /* HelloVIPERTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBEFD0432A21190A000CA445 /* Build configuration list for PBXNativeTarget "HelloVIPERTests" */;
+			buildPhases = (
+				EBEFD0282A21190A000CA445 /* Sources */,
+				EBEFD0292A21190A000CA445 /* Frameworks */,
+				EBEFD02A2A21190A000CA445 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBEFD02E2A21190A000CA445 /* PBXTargetDependency */,
+			);
+			name = HelloVIPERTests;
+			productName = HelloVIPERTests;
+			productReference = EBEFD02C2A21190A000CA445 /* HelloVIPERTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EBEFD0352A21190A000CA445 /* HelloVIPERUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBEFD0462A21190A000CA445 /* Build configuration list for PBXNativeTarget "HelloVIPERUITests" */;
+			buildPhases = (
+				EBEFD0322A21190A000CA445 /* Sources */,
+				EBEFD0332A21190A000CA445 /* Frameworks */,
+				EBEFD0342A21190A000CA445 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBEFD0382A21190A000CA445 /* PBXTargetDependency */,
+			);
+			name = HelloVIPERUITests;
+			productName = HelloVIPERUITests;
+			productReference = EBEFD0362A21190A000CA445 /* HelloVIPERUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBEFD00E2A211908000CA445 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					EBEFD0152A211908000CA445 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					EBEFD02B2A21190A000CA445 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = EBEFD0152A211908000CA445;
+					};
+					EBEFD0352A21190A000CA445 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = EBEFD0152A211908000CA445;
+					};
+				};
+			};
+			buildConfigurationList = EBEFD0112A211908000CA445 /* Build configuration list for PBXProject "HelloVIPER" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBEFD00D2A211908000CA445;
+			productRefGroup = EBEFD0172A211908000CA445 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBEFD0152A211908000CA445 /* HelloVIPER */,
+				EBEFD02B2A21190A000CA445 /* HelloVIPERTests */,
+				EBEFD0352A21190A000CA445 /* HelloVIPERUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBEFD0142A211908000CA445 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBEFD0262A211909000CA445 /* LaunchScreen.storyboard in Resources */,
+				EBEFD0232A211909000CA445 /* Assets.xcassets in Resources */,
+				EBEFD0212A211908000CA445 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBEFD02A2A21190A000CA445 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBEFD0342A21190A000CA445 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBEFD0122A211908000CA445 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBEFD01E2A211908000CA445 /* ViewController.swift in Sources */,
+				EBEFD01A2A211908000CA445 /* AppDelegate.swift in Sources */,
+				EBEFD01C2A211908000CA445 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBEFD0282A21190A000CA445 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBEFD0312A21190A000CA445 /* HelloVIPERTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBEFD0322A21190A000CA445 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBEFD03D2A21190A000CA445 /* HelloVIPERUITestsLaunchTests.swift in Sources */,
+				EBEFD03B2A21190A000CA445 /* HelloVIPERUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EBEFD02E2A21190A000CA445 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBEFD0152A211908000CA445 /* HelloVIPER */;
+			targetProxy = EBEFD02D2A21190A000CA445 /* PBXContainerItemProxy */;
+		};
+		EBEFD0382A21190A000CA445 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBEFD0152A211908000CA445 /* HelloVIPER */;
+			targetProxy = EBEFD0372A21190A000CA445 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EBEFD01F2A211908000CA445 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBEFD0202A211908000CA445 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EBEFD0242A211909000CA445 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBEFD0252A211909000CA445 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBEFD03E2A21190A000CA445 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EBEFD03F2A21190A000CA445 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBEFD0412A21190A000CA445 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HelloVIPER/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nomadacode.HelloVIPER;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EBEFD0422A21190A000CA445 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HelloVIPER/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nomadacode.HelloVIPER;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EBEFD0442A21190A000CA445 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nomadacode.HelloVIPERTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloVIPER.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HelloVIPER";
+			};
+			name = Debug;
+		};
+		EBEFD0452A21190A000CA445 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nomadacode.HelloVIPERTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloVIPER.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HelloVIPER";
+			};
+			name = Release;
+		};
+		EBEFD0472A21190A000CA445 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nomadacode.HelloVIPERUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HelloVIPER;
+			};
+			name = Debug;
+		};
+		EBEFD0482A21190A000CA445 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nomadacode.HelloVIPERUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HelloVIPER;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBEFD0112A211908000CA445 /* Build configuration list for PBXProject "HelloVIPER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBEFD03E2A21190A000CA445 /* Debug */,
+				EBEFD03F2A21190A000CA445 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBEFD0402A21190A000CA445 /* Build configuration list for PBXNativeTarget "HelloVIPER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBEFD0412A21190A000CA445 /* Debug */,
+				EBEFD0422A21190A000CA445 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBEFD0432A21190A000CA445 /* Build configuration list for PBXNativeTarget "HelloVIPERTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBEFD0442A21190A000CA445 /* Debug */,
+				EBEFD0452A21190A000CA445 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBEFD0462A21190A000CA445 /* Build configuration list for PBXNativeTarget "HelloVIPERUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBEFD0472A21190A000CA445 /* Debug */,
+				EBEFD0482A21190A000CA445 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBEFD00E2A211908000CA445 /* Project object */;
+}
