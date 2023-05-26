@@ -16,6 +16,16 @@
 		EBEFD0312A21190A000CA445 /* HelloVIPERTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEFD0302A21190A000CA445 /* HelloVIPERTests.swift */; };
 		EBEFD03B2A21190A000CA445 /* HelloVIPERUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEFD03A2A21190A000CA445 /* HelloVIPERUITests.swift */; };
 		EBEFD03D2A21190A000CA445 /* HelloVIPERUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEFD03C2A21190A000CA445 /* HelloVIPERUITestsLaunchTests.swift */; };
+		EBEFD0512A2119ED000CA445 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEFD04F2A2119ED000CA445 /* HomeViewController.swift */; };
+		EBEFD0522A2119ED000CA445 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBEFD0502A2119ED000CA445 /* HomeViewController.xib */; };
+		EBEFD0552A211A25000CA445 /* HelloHomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEFD0542A211A25000CA445 /* HelloHomeInteractor.swift */; };
+		EBEFD0582A211A45000CA445 /* HelloHomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEFD0572A211A45000CA445 /* HelloHomePresenter.swift */; };
+		EBEFD05A2A211A76000CA445 /* HelloModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEFD0592A211A76000CA445 /* HelloModel.swift */; };
+		EBEFD05C2A211A85000CA445 /* HelloRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEFD05B2A211A85000CA445 /* HelloRouter.swift */; };
+		EBEFD0622A211AC4000CA445 /* HelloDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEFD0602A211AC4000CA445 /* HelloDetailViewController.swift */; };
+		EBEFD0632A211AC4000CA445 /* HelloDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBEFD0612A211AC4000CA445 /* HelloDetailViewController.xib */; };
+		EBEFD0652A211AE6000CA445 /* HelloDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEFD0642A211AE6000CA445 /* HelloDetailInteractor.swift */; };
+		EBEFD0672A211AF6000CA445 /* HelloDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEFD0662A211AF6000CA445 /* HelloDetailPresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +59,16 @@
 		EBEFD0362A21190A000CA445 /* HelloVIPERUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloVIPERUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBEFD03A2A21190A000CA445 /* HelloVIPERUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloVIPERUITests.swift; sourceTree = "<group>"; };
 		EBEFD03C2A21190A000CA445 /* HelloVIPERUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloVIPERUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EBEFD04F2A2119ED000CA445 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		EBEFD0502A2119ED000CA445 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		EBEFD0542A211A25000CA445 /* HelloHomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloHomeInteractor.swift; sourceTree = "<group>"; };
+		EBEFD0572A211A45000CA445 /* HelloHomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloHomePresenter.swift; sourceTree = "<group>"; };
+		EBEFD0592A211A76000CA445 /* HelloModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloModel.swift; sourceTree = "<group>"; };
+		EBEFD05B2A211A85000CA445 /* HelloRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloRouter.swift; sourceTree = "<group>"; };
+		EBEFD0602A211AC4000CA445 /* HelloDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloDetailViewController.swift; sourceTree = "<group>"; };
+		EBEFD0612A211AC4000CA445 /* HelloDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HelloDetailViewController.xib; sourceTree = "<group>"; };
+		EBEFD0642A211AE6000CA445 /* HelloDetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloDetailInteractor.swift; sourceTree = "<group>"; };
+		EBEFD0662A211AF6000CA445 /* HelloDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloDetailPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +119,11 @@
 		EBEFD0182A211908000CA445 /* HelloVIPER */ = {
 			isa = PBXGroup;
 			children = (
+				EBEFD0492A211916000CA445 /* Views */,
+				EBEFD04B2A211931000CA445 /* Interactors */,
+				EBEFD04A2A211926000CA445 /* Presenters */,
+				EBEFD04C2A21193C000CA445 /* Entities */,
+				EBEFD04D2A211947000CA445 /* Routers */,
 				EBEFD0192A211908000CA445 /* AppDelegate.swift */,
 				EBEFD01B2A211908000CA445 /* SceneDelegate.swift */,
 				EBEFD01D2A211908000CA445 /* ViewController.swift */,
@@ -125,6 +150,67 @@
 				EBEFD03C2A21190A000CA445 /* HelloVIPERUITestsLaunchTests.swift */,
 			);
 			path = HelloVIPERUITests;
+			sourceTree = "<group>";
+		};
+		EBEFD0492A211916000CA445 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EBEFD05D2A211A90000CA445 /* HelloDetail */,
+				EBEFD04E2A2119B2000CA445 /* HelloHome */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EBEFD04A2A211926000CA445 /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+				EBEFD0572A211A45000CA445 /* HelloHomePresenter.swift */,
+				EBEFD0662A211AF6000CA445 /* HelloDetailPresenter.swift */,
+			);
+			path = Presenters;
+			sourceTree = "<group>";
+		};
+		EBEFD04B2A211931000CA445 /* Interactors */ = {
+			isa = PBXGroup;
+			children = (
+				EBEFD0542A211A25000CA445 /* HelloHomeInteractor.swift */,
+				EBEFD0642A211AE6000CA445 /* HelloDetailInteractor.swift */,
+			);
+			path = Interactors;
+			sourceTree = "<group>";
+		};
+		EBEFD04C2A21193C000CA445 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				EBEFD0592A211A76000CA445 /* HelloModel.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		EBEFD04D2A211947000CA445 /* Routers */ = {
+			isa = PBXGroup;
+			children = (
+				EBEFD05B2A211A85000CA445 /* HelloRouter.swift */,
+			);
+			path = Routers;
+			sourceTree = "<group>";
+		};
+		EBEFD04E2A2119B2000CA445 /* HelloHome */ = {
+			isa = PBXGroup;
+			children = (
+				EBEFD04F2A2119ED000CA445 /* HomeViewController.swift */,
+				EBEFD0502A2119ED000CA445 /* HomeViewController.xib */,
+			);
+			path = HelloHome;
+			sourceTree = "<group>";
+		};
+		EBEFD05D2A211A90000CA445 /* HelloDetail */ = {
+			isa = PBXGroup;
+			children = (
+				EBEFD0602A211AC4000CA445 /* HelloDetailViewController.swift */,
+				EBEFD0612A211AC4000CA445 /* HelloDetailViewController.xib */,
+			);
+			path = HelloDetail;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +320,8 @@
 				EBEFD0262A211909000CA445 /* LaunchScreen.storyboard in Resources */,
 				EBEFD0232A211909000CA445 /* Assets.xcassets in Resources */,
 				EBEFD0212A211908000CA445 /* Main.storyboard in Resources */,
+				EBEFD0522A2119ED000CA445 /* HomeViewController.xib in Resources */,
+				EBEFD0632A211AC4000CA445 /* HelloDetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +347,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				EBEFD01E2A211908000CA445 /* ViewController.swift in Sources */,
+				EBEFD05C2A211A85000CA445 /* HelloRouter.swift in Sources */,
 				EBEFD01A2A211908000CA445 /* AppDelegate.swift in Sources */,
 				EBEFD01C2A211908000CA445 /* SceneDelegate.swift in Sources */,
+				EBEFD05A2A211A76000CA445 /* HelloModel.swift in Sources */,
+				EBEFD0552A211A25000CA445 /* HelloHomeInteractor.swift in Sources */,
+				EBEFD0652A211AE6000CA445 /* HelloDetailInteractor.swift in Sources */,
+				EBEFD0672A211AF6000CA445 /* HelloDetailPresenter.swift in Sources */,
+				EBEFD0622A211AC4000CA445 /* HelloDetailViewController.swift in Sources */,
+				EBEFD0582A211A45000CA445 /* HelloHomePresenter.swift in Sources */,
+				EBEFD0512A2119ED000CA445 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
